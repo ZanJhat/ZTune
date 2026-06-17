@@ -1,9 +1,9 @@
 [
   {
-    "Id": 1,
     "Title": "Blocks And Pixels",
     "Author": "DayScVN",
-    "FileName": "Blocks_And_Pixels-DayScVN.ogg",
-    "Url": "https://raw.githubusercontent.com/ZanJhat/Cloud-Music/main/MusicList/Blocks_And_Pixels-DayScVN.ogg"
+    "SongUrl": "https://raw.githubusercontent.com/ZanJhat/Cloud-Music/main/MusicList/Blocks_And_Pixels-DayScVN.ogg",
+    "IconUrl": "",
+    "FileName": "Blocks_And_Pixels-DayScVN.ogg"
   }
 ]
