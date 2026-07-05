@@ -1,8 +1,20 @@
 [
   {
-    "Title": "Blocks And Pixels",
+    "Title": "Blocks and Pixels",
     "Author": "DayScVN",
-    "SongUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/Blocks_And_Pixels-DayScVN.ogg",
+    "SongUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/Blocks_and_Pixels-DayScVN.ogg",
+    "IconUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/DayScVN.png"
+  },
+  {
+    "Title": "Winds of No Return",
+    "Author": "DayScVN",
+    "SongUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/Winds_of_No_Return-DayScVN.ogg",
+    "IconUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/DayScVN.png"
+  },
+  {
+    "Title": "Resonance of the Exiled",
+    "Author": "DayScVN",
+    "SongUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/Resonance_of_the_Exiled-DayScVN.ogg",
     "IconUrl": "https://raw.githubusercontent.com/ZanJhat/ZTune/main/MusicList/DayScVN.png"
   }
 ]
