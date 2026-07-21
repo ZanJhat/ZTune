@@ -1,0 +1,68 @@
+<CanvasWidget xmlns="runtime-namespace:Game" Margin="0,10">
+
+    <CanvasWidget Size="700, 420" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+        <RectangleWidget FillColor="80, 80, 80, 255" OutlineColor="120, 120, 120, 160" OutlineThickness="2" />
+
+        <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 5">
+
+            <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <CanvasWidget Size="700, 40" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <LabelWidget Name="TitleLabel" Text="ZTune" Margin="5, 5" HorizontalAlignment="Center" />
+                </CanvasWidget>
+            </StackPanelWidget>
+
+            <CanvasWidget Size="660, 320" Margin="20, 3">
+
+                <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="20, 20, 20, 128" OutlineThickness="1" />
+
+                <ScrollPanelWidget Name="ScrollPanel" Direction="Vertical" Margin="3, 3" ClampToBounds="true">
+                	
+                	<StackPanelWidget Name="ContentsPanel" Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                	
+                </ScrollPanelWidget>
+
+            </CanvasWidget>
+
+            <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                <CanvasWidget Size="370, 40">
+                    <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Far" VerticalAlignment="Center">
+                        <BevelledButtonWidget Name="NowButton" Size="120, 40" VerticalAlignment="Center" HorizontalAlignment="Far" Margin="0, 3">
+                            <RectangleWidget FillColor="100, 100, 100, 255" OutlineColor="120, 120, 120, 255" IsVisible="true" />
+                            <LabelWidget Text="Now" Font="{Fonts/Pericles}" HorizontalAlignment="Center" VerticalAlignment="Center" Color="255, 255, 255, 255" IsVisible="true" />
+                        </BevelledButtonWidget>
+
+                        <CanvasWidget Size="5, 0" />
+
+                        <BevelledButtonWidget Name="SongsButton" Size="120, 40" VerticalAlignment="Center" HorizontalAlignment="Far" Margin="0, 3">
+                            <RectangleWidget FillColor="100, 100, 100, 255" OutlineColor="120, 120, 120, 255" IsVisible="true" />
+                            <LabelWidget Text="Songs" Font="{Fonts/Pericles}" HorizontalAlignment="Center" VerticalAlignment="Center" Color="255, 255, 255, 255" IsVisible="true" />
+                        </BevelledButtonWidget>
+
+                        <CanvasWidget Size="5, 0" />
+
+                        <BevelledButtonWidget Name="SettingsButton" Size="120, 40" VerticalAlignment="Center" HorizontalAlignment="Far" Margin="0, 3">
+                            <RectangleWidget FillColor="100, 100, 100, 255" OutlineColor="120, 120, 120, 255" IsVisible="true" />
+                            <LabelWidget Text="Settings" Font="{Fonts/Pericles}" HorizontalAlignment="Center" VerticalAlignment="Center" Color="255, 255, 255, 255" IsVisible="true" />
+                        </BevelledButtonWidget>
+                    </StackPanelWidget>
+                </CanvasWidget>
+                
+                <CanvasWidget Size="170, 0" />
+
+                <CanvasWidget Size="120, 40">
+                    <BevelledButtonWidget Name="CloseButton" Size="120, 40" VerticalAlignment="Center" HorizontalAlignment="Far" Margin="0, 3">
+                        <RectangleWidget FillColor="100, 100, 100, 255" OutlineColor="120, 120, 120, 255" IsVisible="true" />
+                        <LabelWidget Text="Close" Font="{Fonts/Pericles}" HorizontalAlignment="Center" VerticalAlignment="Center" Color="255, 255, 255, 255" IsVisible="true" />
+                    </BevelledButtonWidget>
+                </CanvasWidget>
+
+            </StackPanelWidget>
+
+
+        </StackPanelWidget>
+
+    </CanvasWidget>
+
+</CanvasWidget>

@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZTune", "ZTune/ZTune.csproj", "{9CD41CF0-473E-446E-86E5-2F1CC7C40A00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CD41CF0-473E-446E-86E5-2F1CC7C40A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD41CF0-473E-446E-86E5-2F1CC7C40A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD41CF0-473E-446E-86E5-2F1CC7C40A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD41CF0-473E-446E-86E5-2F1CC7C40A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B370A2B-7079-448B-96FA-F39BB402988C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B370A2B-7079-448B-96FA-F39BB402988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B370A2B-7079-448B-96FA-F39BB402988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B370A2B-7079-448B-96FA-F39BB402988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13F287E-3627-4E41-905C-637C08579AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13F287E-3627-4E41-905C-637C08579AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13F287E-3627-4E41-905C-637C08579AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13F287E-3627-4E41-905C-637C08579AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D6F785C-C902-4679-BC30-9661B1110EC3}
+	EndGlobalSection
+EndGlobal

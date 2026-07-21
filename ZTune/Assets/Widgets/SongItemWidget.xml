@@ -1,0 +1,21 @@
+<CanvasWidget xmlns="runtime-namespace:Game" Size="Infinity, 104" Margin="10, 10" HorizontalAlignment="Center" VerticalAlignment="Center">
+	
+	<RectangleWidget FillColor="80, 80, 80, 255" OutlineColor="120, 120, 120, 160" OutlineThickness="2" />
+
+    <StackPanelWidget Direction="Horizontal" VerticalAlignment="Center">
+
+        <RectangleWidget Name="IconRectangle" Size="64, 64" Margin="10, 10" Subtexture="{Textures/DefaultSongIcon}" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" HorizontalAlignment="Near" VerticalAlignment="Center" />
+        
+        <StackPanelWidget Direction="Vertical" VerticalAlignment="Center" HorizontalAlignment="Near" Margin="10, 10">
+        	<LabelWidget Name="TitleLabel" Text="ZTune" />
+            <LabelWidget Name="AuthorLabel" Text="ZTune" FontScale="0.85" Color="196, 196, 196" />
+        </StackPanelWidget>
+        
+        <CanvasWidget Size="Infinity, 0" HorizontalAlignment="Near" VerticalAlignment="Center" />
+        
+        <BevelledButtonWidget Name="PlayPauseButton" Size="64, 64" VerticalAlignment="Center" HorizontalAlignment="Near" Margin="10, 10">
+        	<RectangleWidget Name="PlayPauseRectangle" Size="48, 48" Subtexture="{Textures/Atlas/ArrowRight}" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </BevelledButtonWidget>
+
+    </StackPanelWidget>
+</CanvasWidget>
